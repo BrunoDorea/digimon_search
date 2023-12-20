@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <!-- FAVICON -->
+    <link rel='shortcut icon' href='./src/images/logo.png' type='image/png' />
+    <!-- CSS -->
+    <link rel='stylesheet' href='./src/css/reset.css' />
+    <link rel='stylesheet' href='./src/css/style.css' />
+    <!-- JAVASCRIPT -->
+    <script defer src='./src/js/main.js'></script>
+    <title>Digimon Search</title>
+    <!-- GOOGLE TAG (gtag.js) -->
+    <script async src='https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD'></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-TJQ2XJZPTD');
+    </script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="container-bg">
+            <div class="card">
+                <section class="i-logo__digimons">
+                    <img src="./src/images/logo.png" alt="Logo Digimon" height="70px" />
+                </section>
+
+                <section class="i-img__digimon">
+                    <img src="" alt="Imagem Digimon">
+                </section>
+
+                <section class="t-nome__digimon">
+                    <p id="t-name__digimon">Nome</p>
+                </section>
+
+                <section class="info-digimons">
+                    <div class="HP">
+                        <p>HP</p>
+                        <div class="d-hp__int">
+                            <div class="d-hp__ext"></div>
+                        </div>
+                    </div>
+
+                    <div class="ATK">
+                        <p>ATK</p>
+                        <div class="d-atk__int">
+                            <div class="d-atk__ext"></div>
+                        </div>
+                    </div>
+
+                    <div class="DEF">
+                        <p>DEF</p>
+                        <div class="d-def__int">
+                            <div class="d-def__ext"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
